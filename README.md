@@ -7,3 +7,5 @@ This program modifies the game executable to skip the call to this function, whi
 
 Usage:
 compile corepatch.cpp and run the resulting executable from the same directory where drt.exe is.
+
+**Note, the code no longer works, for now, use any hex editor to replace the following hex-values C7 45 F0 00 06 00 00 FF D0 with the following values B8 01 00 00 00 90 90 90 90**
